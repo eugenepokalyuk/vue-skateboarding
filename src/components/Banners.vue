@@ -1,12 +1,12 @@
 <template>
-    <div class="bg-[#FF8B2B] h-[278px] flex flex-row items-center justify-center">
+    <div class="bg-[#FF8B2B] h-[278px] flex flex-row items-center justify-center p-4 md:p-0">
         <div class="container mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center justify-center uppercase">
             <div class="flex">
                 <h1 class="font-bold text-[40px] leading-[50px] tracking-[5px]">sign up for special offers and discounts
                 </h1>
             </div>
 
-            <div class="flex border-b border-[#284E8D] mx-20 py-2">
+            <div class="flex border-b border-[#284E8D] md:mx-20 py-2">
                 <input type="text" placeholder="enter you email address"
                     class="bg-transparent w-full placeholder-[#284E8D] text-[#284E8D] capitalize">
                 <button class="flex items-center text-[#284E8D]">Subscribe <svg width="16" height="16" viewBox="0 0 16 16"

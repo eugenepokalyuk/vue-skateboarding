@@ -10,6 +10,7 @@
 }
 
 html {
+    background: #f6dc3133;
     background-image: url('./assets/background.png');
     background-size: contain;
     background-position: center;

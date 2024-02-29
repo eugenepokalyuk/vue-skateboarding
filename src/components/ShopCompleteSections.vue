@@ -1,7 +1,8 @@
 <template>
     <div>
         <div class="flex flex-col">
-            <div class="container mx-auto sm:text-center grid grid-cols-1 md:grid-cols-2 min-h-[400px] md:mt-0] my-10">
+            <div
+                class="container mx-auto sm:text-center grid grid-cols-1 md:grid-cols-2 md:min-h-[400px] md:mt-0] md:my-10 p-4 md:p-0">
                 <div class="flex flex-col ml-auto items-start justify-start w-full">
                     <div class="relative flex items-start justify-start">
                         <h2
@@ -16,15 +17,15 @@
                     <button class="bg-[#FF8B2B] text-white py-[10px] px-[30px] rounded-full">Explore</button>
                 </div>
 
-                <div class="relative flex items-center justify-center px-[60px] background-image1">
+                <div class="hidden md:flex relative items-center justify-center px-[60px] background-image1">
                     <div class="absolute top-14 z-30">
                         <img :src="Shop_person" alt="Person" class="object-cover h-[550px] w-auto" />
                     </div>
                 </div>
             </div>
 
-            <div class="relative bg-blue-800 p-24">
-                <Swiper :slidesPerView="3.5" :centeredSlides="true" :spaceBetween="30" class="mySwiper"
+            <div class="hidden md:block relative bg-[#284E8D] p-0 md:p-24">
+                <Swiper :slidesPerView="3.5" :centeredSlides="true" :spaceBetween="30" class="hidden md:block mySwiper"
                     @slideChange="handleSlideChange">
                     <SwiperSlide v-for="(deck, index) in decks" :key="index">
                         <div class="flex justify-center">
@@ -39,19 +40,36 @@
                 </Swiper>
             </div>
 
-            <div class="flex flex-row flex-wrap items-center justify-center md:p-10 h-screen">
-                <div class="mb-auto flex items-start justify-start mb-6 w-1/2">
-                    <div class="inline-block p-2 bg-white rounded-full mb-2 shadow">
+            <div class="block md:hidden relative bg-[#284E8D] p-0 md:p-24">
+                <Swiper :slidesPerView="1.5" :centeredSlides="true" :spaceBetween="30" class="hidden md:block mySwiper"
+                    @slideChange="handleSlideChange">
+                    <SwiperSlide v-for="(deck, index) in decks" :key="index">
+                        <div class="flex justify-center">
+                            <div class="relative w-full h-[50vh] flex justify-center items-end">
+                                <div class="absolute top-0">
+                                    <img :src="deck.image" :alt="deck.name" class="object-cover h-[600px] w-auto" />
+                                </div>
+                                <div class="bg-[#FF8B2B] h-[250px] w-[496px]"></div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
+            </div>
+
+            <div class="flex flex-row flex-wrap items-center justify-center md:p-10 md:h-screen">
+
+                <div class="mb-auto flex items-start justify-start mb-6 w-full md:w-1/2 p-4 md:p-0">
+                    <div class="inline-block p-2 bg-white mb-2">
                         <img :src="Logo" alt="Skateboarding Logo" class="h-8 w-8">
                     </div>
-                    <div class="text-sm font-light text-gray-600">
+                    <div class="text-sm font-light bg-white text-gray-600">
                         SKATEBOARDING
                         <span class="block font-medium">EXTREME SPORT TEAM</span>
                     </div>
                 </div>
 
-                <div class="w-full md:w-1/2">
-                    <div class="relative flex items-center justify-center px-[60px] mb-6">
+                <div class="w-full md:w-1/2 p-4 md:p-0">
+                    <div class="hidden md:flex relative items-center justify-center px-[60px] mb-6">
                         <h2
                             class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[190px] md:leading-[140px] uppercase text-[#284E8D] z-10 max-w-[650px] break-words">
                             INSTAGRAM</h2>
@@ -59,6 +77,16 @@
                             class="absolute font-bold tracking-tight text-[72px] md:text-[150px] leading-[150px] uppercase text-[#DAD0BE]">
                             follow our</h2>
                     </div>
+
+                    <div class="flex md:hidden relative items-center justify-center my-16 md:my-0 md:px-[60px]">
+                        <h2
+                            class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[48px] md:leading-[70px] uppercase text-[#284E8D] z-10">
+                            INSTAGRAM</h2>
+                        <h2
+                            class="absolute font-bold tracking-tight text-[54px] md:text-[150px] leading-[150px] uppercase text-[#DAD0BE]">
+                            follow our</h2>
+                    </div>
+
                     <p class="max-w-prose mb-6">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio massa, ultricies ut lobortis
                         ac,
