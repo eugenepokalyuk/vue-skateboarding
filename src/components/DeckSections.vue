@@ -1,10 +1,9 @@
 <template>
-    <div class="py-24 sm:py-32">
+    <div class="py-24 sm:py-32 background-image2">
         <div class="mx-auto grid gap-x-8 gap-y-20 px-6 lg:px-8">
-
             <div>
                 <h2
-                    class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[190px] md:leading-[140px] uppercase text-[#284E8D] z-10 break-words text-right w-3/4">
+                    class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[190px] md:leading-[140px] uppercase text-[#284E8D] z-10 break-words text-center md:text-right w-full md:w-3/4">
                     our BEST SELLERS</h2>
             </div>
 
@@ -69,3 +68,12 @@ const people = [
     }
 ]
 </script>
+
+<style>
+.background-image2 {
+    background-image: url('../assets/Shop_bg2.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+</style>

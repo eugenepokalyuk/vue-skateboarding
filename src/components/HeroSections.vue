@@ -17,7 +17,10 @@
 <style>
 .background-image {
   background-image: url('../assets/hero.png');
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: repeat-x
 }
 </style>

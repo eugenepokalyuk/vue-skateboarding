@@ -40,12 +40,12 @@
                 </Swiper>
             </div>
 
-            <div class="block md:hidden relative bg-[#284E8D] p-0 md:p-24">
+            <div class="block md:hidden relative bg-[#284E8D] pt-10 md:pt-0 md:p-24">
                 <Swiper :slidesPerView="1.5" :centeredSlides="true" :spaceBetween="30" class="hidden md:block mySwiper"
                     @slideChange="handleSlideChange">
                     <SwiperSlide v-for="(deck, index) in decks" :key="index">
                         <div class="flex justify-center">
-                            <div class="relative w-full h-[50vh] flex justify-center items-end">
+                            <div class="relative w-full h-[100vh] flex justify-center items-end">
                                 <div class="absolute top-0">
                                     <img :src="deck.image" :alt="deck.name" class="object-cover h-[600px] w-auto" />
                                 </div>

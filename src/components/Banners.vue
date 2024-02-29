@@ -1,6 +1,7 @@
 <template>
-    <div class="bg-[#FF8B2B] h-[278px] flex flex-row items-center justify-center p-4 md:p-0">
-        <div class="container mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center justify-center uppercase">
+    <div class="bg-[#FF8B2B] h-[50vh] md:h-[278px] flex flex-row items-center justify-center p-4 md:p-0">
+        <div
+            class="container mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center justify-center h-[50vh] md:h-full uppercase">
             <div class="flex">
                 <h1 class="font-bold text-[40px] leading-[50px] tracking-[5px]">sign up for special offers and discounts
                 </h1>

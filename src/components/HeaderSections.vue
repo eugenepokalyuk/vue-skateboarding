@@ -16,9 +16,7 @@
             </div>
             <PopoverGroup class="hidden lg:flex lg:gap-x-12">
                 <router-link to="/" class="text-sm font-semibold leading-6 text-gray-900">Home</router-link>
-                <!-- pricing -->
                 <router-link to="/" class="text-sm font-semibold leading-6 text-gray-900">Pricing</router-link>
-                <!-- about -->
                 <router-link to="/" class="text-sm font-semibold leading-6 text-gray-900">About</router-link>
             </PopoverGroup>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">

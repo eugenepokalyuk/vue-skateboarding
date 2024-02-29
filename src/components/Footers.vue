@@ -192,12 +192,24 @@
                         <div class="px-4 sm:w-1/3 md:w-1/3 text-center md:text-left">
                             <h5 class="text-[16px] leading-[25px] font-bold mb-6">Social</h5>
                             <div class="grid grid-cols-3 gap-3">
-                                <div class="w-8 h-8 bg-white mx-auto rounded-full"></div>
-                                <div class="w-8 h-8 bg-white mx-auto rounded-full"></div>
-                                <div class="w-8 h-8 bg-white mx-auto rounded-full"></div>
-                                <div class="w-8 h-8 bg-white mx-auto rounded-full"></div>
-                                <div class="w-8 h-8 bg-white mx-auto rounded-full"></div>
-                                <div class="w-8 h-8 bg-white mx-auto rounded-full"></div>
+
+                                <a href="https://t.me/PaperCranejs" target="_blank">
+                                    <div
+                                        class="w-8 h-8 bg-white mx-auto rounded-full text-black flex items-center justify-center cursor-pointer hover:scale-[110%]">
+                                        T</div>
+                                </a>
+
+                                <a href="https://github.com/eugenepokalyuk" target="_blank">
+                                    <div
+                                        class="w-8 h-8 bg-white mx-auto rounded-full text-black flex items-center justify-center cursor-pointer hover:scale-[110%]">
+                                        G</div>
+                                </a>
+
+                                <a href="https://eugenepokalyuk.github.io/react-about/" target="_blank">
+                                    <div
+                                        class="w-8 h-8 bg-white mx-auto rounded-full text-black flex items-center justify-center cursor-pointer hover:scale-[110%]">
+                                        H</div>
+                                </a>
                             </div>
                         </div>
                     </div>
