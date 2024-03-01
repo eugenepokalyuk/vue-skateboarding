@@ -20,7 +20,7 @@
                         porttitor erat. Nam in ante lobortis, tristique velit non, volutpat sem. Fusce dictum bibendum
                         ligula ut volutpat. Sed dictum felis sit amet nisl maximus, id faucibus eros iaculis.</p>
                     <button
-                        class="bg-[#FF8B2B] text-white py-[10px] px-[30px] flex justify-start rounded-full">Explore</button>
+                        class="bg-orange-500 text-white py-2 px-6 rounded-full transition duration-300 ease-in-out hover:bg-orange-600">Explore</button>
                 </div>
             </div>
 

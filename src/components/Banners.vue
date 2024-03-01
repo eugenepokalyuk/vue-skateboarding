@@ -9,7 +9,7 @@
 
             <div class="flex border-b border-[#284E8D] md:mx-20 py-2">
                 <input type="text" placeholder="enter you email address"
-                    class="bg-transparent w-full placeholder-[#284E8D] text-[#284E8D] capitalize">
+                    class="bg-transparent w-full placeholder-[#284E8D] text-[#284E8D] capitalize outline-none">
                 <button class="flex items-center text-[#284E8D]">Subscribe <svg width="16" height="16" viewBox="0 0 16 16"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"

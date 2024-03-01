@@ -15,13 +15,19 @@
                 </button>
             </div>
             <PopoverGroup class="hidden lg:flex lg:gap-x-12">
-                <router-link to="/" class="text-sm font-semibold leading-6 text-gray-900">Home</router-link>
-                <router-link to="/" class="text-sm font-semibold leading-6 text-gray-900">Pricing</router-link>
-                <router-link to="/" class="text-sm font-semibold leading-6 text-gray-900">About</router-link>
+                <!-- class="font-light bg-[#FF8B2B] px-2 py-3 rounded-full text-white w-full md:w-[137px]">Shop</button> -->
+                <router-link to="/"
+                    class="text-sm font-semibold leading-6 text-gray-900 px-4 py-3 rounded-full hover:outline">Home</router-link>
+                <router-link to="/"
+                    class="text-sm font-semibold leading-6 text-gray-900 px-4 py-3 rounded-full hover:outline">Pricing</router-link>
+                <router-link to="/"
+                    class="text-sm font-semibold leading-6 text-gray-900 px-4 py-3 rounded-full hover:outline">About</router-link>
             </PopoverGroup>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <router-link to="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span
-                        aria-hidden="true">&rarr;</span></router-link>
+                <!-- <router-link to="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span
+                        aria-hidden="true">&rarr;</span></router-link> -->
+                <router-link to="/"
+                    class="text-sm font-semibold leading-6 text-gray-900 px-4 py-3 rounded-full hover:outline">Contact</router-link>
             </div>
         </nav>
         <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">

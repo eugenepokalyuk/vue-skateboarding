@@ -2,11 +2,8 @@
     <div class="py-24 sm:py-32 background-image2">
         <div class="mx-auto grid gap-x-8 gap-y-20 px-6 lg:px-8">
             <div>
-                <!-- <h2
-                    class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[190px] md:leading-[140px] uppercase text-[#284E8D] z-10 break-words text-center md:text-right w-full md:w-3/4">
-                    our BEST SELLERS</h2> -->
                 <h2
-                    class="font-bold tracking-tight text-[150px] leading-[150px] uppercase text-[#284E8D] z-10 break-words text-center">
+                    class="font-bold tracking-tight lg:text-[150px] lg:leading-[150px] uppercase text-[#284E8D] z-10 break-words text-center">
                     our BEST SELLERS</h2>
             </div>
 
@@ -20,7 +17,8 @@
                             </h3>
                             <p class="font-light text-[16px] leading-[25px] tracking-tight text-black">{{ person.role }}</p>
                             <button
-                                class="font-light bg-[#FF8B2B] px-2 py-3 rounded-full text-white w-full md:w-[137px]">Shop</button>
+                                class="bg-orange-500 text-white py-2 px-6 rounded-full transition duration-300 ease-in-out hover:bg-orange-600">Shop</button>
+
                         </div>
                     </div>
                 </li>
