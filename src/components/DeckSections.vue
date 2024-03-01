@@ -8,7 +8,7 @@
             </div>
 
             <ul role="list" class="flex items-center flex-wrap">
-                <li v-for="person in people" :key="person.name" class="w-full lg:w-1/3 p-8">
+                <li v-for="person in people" :key="person.name" class="w-full lg:w-1/3 md:p-8">
                     <div class="flex flex-col md:flex-row items-center">
                         <img class="md:h-auto w-[180px] md:w-[180px] object-contain" :src="person.imageUrl" alt="" />
                         <div class="w-full flex flex-col items-start md:items-center justify-center space-y-4 p-4">
