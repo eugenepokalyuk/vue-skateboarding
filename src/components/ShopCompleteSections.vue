@@ -6,13 +6,20 @@
                 <!-- container -->
                 <div class="flex flex-col ml-auto items-center justify-center md:w-3/4">
 
-                    <div class="relative flex items-center justify-center my-4 md:my-16 md:my-0 md:px-[60px] md:w-[500px]">
+                    <div
+                        class="hidden lg:block relative flex items-center justify-center my-4 md:my-16 md:my-0 md:px-[60px] md:w-[500px]">
                         <h2
-                            class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[190px] md:leading-[140px] uppercase text-[#284E8D] text-left z-10">
+                            class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[72px] md:leading-[80px] lg:text-[190px] lg:leading-[140px] uppercase text-[#284E8D] text-left z-10">
                             Gear up</h2>
                         <h2
                             class="absolute md:-top-10 md:-left-[30%] bottom-[40%] md:bottom-0 right-[40%] md:right-0 font-light tracking-tight text-[22px] leading-[28px] md:text-[150px] leading-[150px] uppercase text-[#DAD0BE] text-nowrap playfair">
                             our shop</h2>
+                    </div>
+
+                    <div class="hidden lg:hidden md:block relative flex items-center justify-center my-4 md:my-0">
+                        <h2
+                            class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[72px] md:leading-[80px] uppercase text-[#284E8D] text-left z-10">
+                            Gear up our shop</h2>
                     </div>
 
                     <div class="flex flex-col items-start justify-center">
@@ -24,7 +31,7 @@
                             porttitor erat. Nam in ante lobortis, tristique velit non, volutpat sem. Fusce dictum bibendum
                             ligula ut volutpat. Sed dictum felis sit amet nisl maximus, id faucibus eros iaculis.</p>
                         <button
-                            class="bg-orange-500 text-white py-2 px-6 rounded-full transition duration-300 ease-in-out hover:bg-orange-600">Explore</button>
+                            class="bg-orange-500 text-white md:mt-[30px] py-2 px-6 rounded-full transition duration-300 ease-in-out hover:bg-orange-600">Explore</button>
                     </div>
                 </div>
 
@@ -33,7 +40,7 @@
                         <img :src="Shop_person" alt="Person" class="object-cover w-auto" />
                     </div>
                     <div>
-                        <img :src="Shop_bg_mark" alt="" class="absolute top-0 right-0 scale-125">
+                        <img :src="Shop_bg_mark" alt="" class="absolute top-0 right-0">
                     </div>
                 </div>
             </div>
@@ -85,9 +92,10 @@
                 </div>
             </div>
 
-            <div class="flex flex-col lg:flex-row flex-wrap items-center justify-center md:p-10 md:h-screen">
+            <div class="flex flex-col lg:flex-row items-center justify-center lg:p-10 md:h-screen">
 
-                <div class="relative mb-auto flex items-start justify-start mb-6 w-full md:w-1/2 p-4 md:p-0">
+                <div
+                    class="hidden lg:block relative mb-auto flex items-start justify-start mb-6 w-full md:w-1/2 p-4 md:p-0">
                     <div class="flex items-center md:p-8">
                         <div class="p-2 bg-white">
                             <img :src="Logo" alt="Skateboarding Logo" class="h-8 w-8">
@@ -98,17 +106,17 @@
                         </div>
                     </div>
 
-                    <div class="hidden md:block absolute top-0 left-0">
+                    <div class="absolute top-0 left-0">
                         <img :src="BgMark1" alt="" class="w-[200px] h-auto">
                     </div>
 
-                    <div class="hidden md:block absolute top-[50vh] right-0">
+                    <div class="absolute top-[50vh] right-0">
                         <img :src="BgMark2" alt="" class="w-[500px] h-auto">
                     </div>
                 </div>
 
-                <div class="w-full md:w-1/2 p-4 md:p-0">
-                    <div class="hidden md:flex relative items-center justify-center px-[60px] mb-6">
+                <div class="w-full lg:w-1/2 p-4 md:p-0">
+                    <div class="hidden lg:flex relative items-center justify-center px-[60px] mb-6">
                         <h2
                             class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[190px] md:leading-[140px] uppercase text-[#284E8D] z-10 max-w-[650px] break-words">
                             INSTAGRAM</h2>
@@ -117,24 +125,31 @@
                             follow our</h2>
                     </div>
 
-                    <div class="flex md:hidden relative items-center justify-center my-4 md:my-16 md:my-0 md:px-[60px]">
+                    <div class="hidden lg:hidden md:flex relative items-center justify-center mb-6 md:w-[500px] md:mx-auto">
                         <h2
-                            class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[48px] md:leading-[70px] uppercase text-[#284E8D] z-10">
+                            class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[72px] md:leading-[80px] uppercase text-[#284E8D] z-10 max-w-[650px] break-words">
+                            INSTAGRAM follow our</h2>
+                    </div>
+
+                    <div class="flex md:hidden relative items-center justify-center my-4 md:my-0">
+                        <h2 class="font-bold tracking-tight text-[22px] leading-[28px] uppercase text-[#284E8D] z-10">
                             INSTAGRAM</h2>
                         <h2
-                            class="absolute md:-top-10 md:-left-[30%] bottom-[40%] md:bottom-0 right-[40%] md:right-0 font-light tracking-tight text-[22px] leading-[28px] md:text-[150px] leading-[150px] uppercase text-[#DAD0BE] text-nowrap playfair">
+                            class="absolute bottom-[40%] right-[40%] font-light tracking-tight text-[22px] leading-[28px] leading-[150px] uppercase text-[#DAD0BE] text-nowrap playfair">
                             follow our</h2>
                     </div>
 
-                    <p class="max-w-prose mb-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio massa, ultricies ut lobortis
-                        ac,
-                        egestas sit amet urna. Aenean vitae dapibus ligula, quis porttitor erat. Nam in ante lobortis.
-                    </p>
-                    <button
-                        class="bg-orange-500 text-white py-2 px-6 rounded-full transition duration-300 ease-in-out hover:bg-orange-600">
-                        Follow Us
-                    </button>
+                    <div class="md:w-[500px] md:mx-auto">
+                        <p class="">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio massa, ultricies ut lobortis
+                            ac,
+                            egestas sit amet urna. Aenean vitae dapibus ligula, quis porttitor erat. Nam in ante lobortis.
+                        </p>
+                        <button
+                            class="bg-orange-500 text-white py-2 px-6 rounded-full transition duration-300 ease-in-out hover:bg-orange-600">
+                            Follow Us
+                        </button>
+                    </div>
                 </div>
 
             </div>
