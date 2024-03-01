@@ -24,8 +24,6 @@
                     class="text-sm font-semibold leading-6 text-gray-900 px-4 py-3 rounded-full hover:outline">About</router-link>
             </PopoverGroup>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <!-- <router-link to="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span
-                        aria-hidden="true">&rarr;</span></router-link> -->
                 <router-link to="/"
                     class="text-sm font-semibold leading-6 text-gray-900 px-4 py-3 rounded-full hover:outline">Contact</router-link>
             </div>
@@ -56,8 +54,7 @@
                         </div>
                         <div class="py-6">
                             <router-link to="/"
-                                class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log
-                                in</router-link>
+                                class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</router-link>
                         </div>
                     </div>
                 </div>

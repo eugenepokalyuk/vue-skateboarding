@@ -9,7 +9,7 @@
                         made to
                         roll</h2>
                     <h2
-                        class="absolute font-bold tracking-tight text-[72px] md:text-[150px] leading-[150px] uppercase text-[#DAD0BE]">
+                        class="absolute font-light tracking-tight text-[72px] md:text-[150px] leading-[150px] uppercase text-[#DAD0BE] playfair">
                         About</h2>
                 </div>
 
@@ -28,7 +28,7 @@
                 <div>
                     <img :src="Pricing1" alt="">
                 </div>
-                <div>
+                <div class="hidden md:block">
                     <img :src="Pricing2" alt="">
                 </div>
             </div>

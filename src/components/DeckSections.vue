@@ -3,8 +3,10 @@
         <div class="mx-auto grid gap-x-8 gap-y-20 px-6 lg:px-8">
             <div>
                 <h2
-                    class="font-bold tracking-tight lg:text-[150px] lg:leading-[150px] uppercase text-[#284E8D] z-10 break-words text-center">
-                    our BEST SELLERS</h2>
+                    class="font-bold tracking-tight text-[22px] leading-[28px] lg:text-[150px] lg:leading-[150px] uppercase text-[#284E8D] z-10 break-words text-center">
+                    <!-- class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[190px] md:leading-[140px] uppercase text-[#284E8D] text-left z-10" -->
+                    our BEST SELLERS
+                </h2>
             </div>
 
             <ul role="list" class="flex items-center flex-wrap">
