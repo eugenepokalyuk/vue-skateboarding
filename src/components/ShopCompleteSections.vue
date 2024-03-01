@@ -45,9 +45,10 @@
                     @slideChange="handleSlideChange">
                     <SwiperSlide v-for="(deck, index) in decks" :key="index">
                         <div class="flex justify-center">
-                            <div class="relative w-full h-[100vh] flex justify-center items-end">
+                            <!-- h-[60vh]  -->
+                            <div class="relative w-full h-[24rem] flex justify-center items-end">
                                 <div class="absolute top-0">
-                                    <img :src="deck.image" :alt="deck.name" class="object-cover h-[600px] w-auto" />
+                                    <img :src="deck.image" :alt="deck.name" class="object-cover h-[500px] w-auto" />
                                 </div>
                                 <div class="bg-[#FF8B2B] h-[250px] w-[496px]"></div>
                             </div>
@@ -56,7 +57,7 @@
                 </Swiper>
             </div>
 
-            <div class="flex flex-row flex-wrap items-center justify-center md:p-10 md:h-screen">
+            <div class="flex flex-col lg:flex-row flex-wrap items-center justify-center md:p-10 md:h-screen">
 
                 <div class="mb-auto flex items-start justify-start mb-6 w-full md:w-1/2 p-4 md:p-0">
                     <div class="inline-block p-2 bg-white mb-2">

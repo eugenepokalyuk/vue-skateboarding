@@ -2,13 +2,16 @@
     <div class="py-24 sm:py-32 background-image2">
         <div class="mx-auto grid gap-x-8 gap-y-20 px-6 lg:px-8">
             <div>
-                <h2
+                <!-- <h2
                     class="font-bold tracking-tight text-[22px] leading-[28px] md:text-[190px] md:leading-[140px] uppercase text-[#284E8D] z-10 break-words text-center md:text-right w-full md:w-3/4">
+                    our BEST SELLERS</h2> -->
+                <h2
+                    class="font-bold tracking-tight text-[150px] leading-[150px] uppercase text-[#284E8D] z-10 break-words text-center">
                     our BEST SELLERS</h2>
             </div>
 
             <ul role="list" class="flex items-center flex-wrap">
-                <li v-for="person in people" :key="person.name" class="w-full md:w-1/3 p-8">
+                <li v-for="person in people" :key="person.name" class="w-full lg:w-1/3 p-8">
                     <div class="flex flex-col md:flex-row items-center">
                         <img class="md:h-auto w-[180px] md:w-[180px] object-contain" :src="person.imageUrl" alt="" />
                         <div class="w-full flex flex-col items-start md:items-center justify-center space-y-4 p-4">
