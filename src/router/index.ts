@@ -1,10 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import {createRouter, createWebHistory} from 'vue-router';
 // Импортируем компоненты страниц
 import AboutPages from '../pages/AboutPages.vue';
 import ErrorPages from '../pages/ErrorPages.vue';
 import LandingPages from '../pages/LandingPages.vue';
 import PricingPages from '../pages/PricingPages.vue';
-import { ABOUT_PATH, HOME_PATH, PRICING_PATH } from './consts';
+import {ABOUT_PATH, HOME_PATH, PRICING_PATH} from './consts.js';
 
 // Определяем маршруты
 const routes = [
